@@ -11,21 +11,14 @@
     "href": "index.html",
     "title": "Baozhuo Su",
     "section": "",
-    "text": "Baozhuo Su\nWelcome to my personal website."
+    "text": "Baozhuo Su\nWelcome to my personal website.\nThis website contains my papers, short proofs, and blog posts."
   },
   {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Papers",
     "section": "",
-    "text": "Divergence-Optimized Data Fusion Open PDF"
-  },
-  {
-    "objectID": "papers.html#npj",
-    "href": "papers.html#npj",
-    "title": "Papers",
-    "section": "",
-    "text": "Divergence-Optimized Data Fusion Open PDF"
+    "text": "Papers\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection Accurate arrhythmia detection using artificial intelligence remains a significant challenge, particularly when training data are limited in size and heterogeneous in origin. To address this issue, we present a novel data fusion strategy that leverages gradient descent optimization to minimize the Kullback– Leibler divergence between feature distributions across datasets from different sources. We evaluate this approach using a combination of in-house electrocardiogram (ECG) recordings collected from both healthy and diseased individuals using various machines and a subset of data extracted from the publicly available PTB-XL dataset. Binary classification is performed using Light Gradient Boosting Machine (LightGBM) and eXtreme Gradient Boosting (XGBoost) models. Applying the fusion strategy leads to consistently higher classification accuracy on both in-house and PTB-XL datasets compared to standard normalization methods. These results suggest that aligning feature distributions across datasets can improve arrhythmia classification and offer a generalizable strategy for integrating heterogeneous clinical data in machine-learning models. Open PDF"
   },
   {
     "objectID": "proofs.html",

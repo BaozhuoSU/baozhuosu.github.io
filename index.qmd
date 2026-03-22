@@ -1,3 +1,14 @@
+::: {.home-hero}
+
+![](img/profile.jpg){.home-photo fig-alt="Portrait photo"}
+
+::: {.home-text}
+
 # Baozhuo Su
 
 Welcome to my personal website.
+
+This website contains my papers, short proofs, and blog posts.
+:::
+    
+:::
