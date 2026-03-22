@@ -1,9 +1,11 @@
 project:
  type: website
  output-dir: docs
+ resources:
+  - papers/pdf/**
 
 website:
- title: "Su Baozhuo"
+ title: "Geometry, Optimization, Machine Learning and Stochastic"
  navbar:
   left:
    - href: index.qmd
@@ -18,4 +20,4 @@ website:
 format:
  html:
   theme: cosmo
-  toc : true
+  toc :  true

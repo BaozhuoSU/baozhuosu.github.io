@@ -1,2 +1,4 @@
 # Papers
-This page will contain my paper and PDF articles.
+## NPJ
+Divergence-Optimized Data Fusion 
+[Open PDF](papers/pdf/npj.pdf)
