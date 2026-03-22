@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-22">
 
-<title>blog – Geometry, Optimization, Machine Learning and Stochastic</title>
+<title>What I learned from Guofan Zeng – Geometry, Optimization, Machine Learning and Stochastic</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Geometry, Optimization, Machine Learning and Stochastic</span>
     </a>
   </div>
@@ -93,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link" href="../papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./proofs.html"> 
+    <a class="nav-link" href="../proofs.html"> 
 <span class="menu-text">Proofs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -124,29 +125,46 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blog" id="toc-blog" class="nav-link active" data-scroll-target="#blog">Blog</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-03-22</a></li>
-  </ul></li>
+  <li><a href="#what-i-learned-from-guofan-zeng" id="toc-what-i-learned-from-guofan-zeng" class="nav-link active" data-scroll-target="#what-i-learned-from-guofan-zeng">What I learned from Guofan Zeng</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">What I learned from Guofan Zeng</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="blog" class="level1">
-<h1>Blog</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2026-03-22</h2>
-<ul>
-<li><a href="./blog/2026-03-22.html">What I Learned from Guofan Zeng</a></li>
-</ul>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 22, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-</section>
+</header>
+
+
+<section id="what-i-learned-from-guofan-zeng" class="level1">
+<h1>What I learned from Guofan Zeng</h1>
+<p>Zengguo Fan is a very important court official in the late Qing Dynasty. It is undeniable that he made a tremendous contribution to china’s development, but also someone thinks he is a traitor, since he, as a Han chinese, helped the Qing dynasty suppressed uprisings. I do not want to talk about his merits and demerits. Afterall, everyone has strengths and weaknesses. Besides being an official, he was also a Confucian scholar. I recently read some of his writings , which demonstrated his thoughts for many subjects. I’m particularly interested by his point of view about doing academic research and managing a household.</p>
+<p>Zeng’s said that, a good paper, should be written brightly and majesticly, make its reader feeling refreshed, and I totally agreed, I’ll try my best to learn how to write a bright and majestic paper. Another point of view about academic, is that for every subject we are interested in, we should study it in depth, and not just scratch the surface, which I shouled be very careful about this. Because I’m actually interested in many topics and if not careful, I‘ll become someone who only scratches the surface.</p>
+<p>About managing houseld, there are eight admonitions: getting up early, doing housework, sincerely performming sacrificail rites, treating clansmen well. I think I’m doing well for the first`` two, but for the last two, I still need some work on them.</p>
+<p>For the last, I think Zeng’s thoughts can be summarized in one word, <strong>Respect</strong>(‘敬’ in chinese), that is, we should respect every thing we did and will do, we should give our all to everyone and everything. I will strive to put his teaings into practice.</p>
+
+
 </section>
 
 </main> <!-- /main -->

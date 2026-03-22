@@ -1,14 +1,25 @@
 ::: {.home-hero}
 
-![](img/profile.jpg){.home-photo fig-alt="Portrait photo"}
+::: {.home-images}
+![](img/optimal_transport.png){.home-photo fig-alt="optimal_transport"}
+![](img/optimization.png){.home-photo fig-alt="optimization"}
+![](img/stochastic.png){.home-photo fig-alt="stochastic"}
+:::
 
 ::: {.home-text}
 
-# Baozhuo Su
+This is the personal blog of Su Baozhuo, who has a wide range of research interests. More specifically, for theoretical research:
 
-Welcome to my personal website.
+- Optimization on Manifolds
+- Optimal Transport 
+- Game Theory
+- Statistical Learning
+- Stochastic Processes
 
-This website contains my papers, short proofs, and blog posts.
+and many applied topics, such as high performance solvers, bioinformatics, anti-deepfake,etc.
+
+This blog serves as his personal homepage and he will update irregularly his new paper, new idea, mathematical proofs, blogs, including thoughts on life and even his new guitar music.
+
+His life is inspired by 3Ms: *Mathematics, Music and Monde*
 :::
-    
 :::

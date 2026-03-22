@@ -4,21 +4,35 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog\nThis page will contain blog posts with images and notes."
+    "text": "What I Learned from Guofan Zeng"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Baozhuo Su",
+    "objectID": "blog.html#section",
+    "href": "blog.html#section",
+    "title": "Blog",
     "section": "",
-    "text": "Baozhuo Su\nWelcome to my personal website.\nThis website contains my papers, short proofs, and blog posts."
+    "text": "What I Learned from Guofan Zeng"
+  },
+  {
+    "objectID": "blog/2026-03-22.html",
+    "href": "blog/2026-03-22.html",
+    "title": "What I learned from Guofan Zeng",
+    "section": "",
+    "text": "What I learned from Guofan Zeng\nZengguo Fan is a very important court official in the late Qing Dynasty. It is undeniable that he made a tremendous contribution to china’s development, but also someone thinks he is a traitor, since he, as a Han chinese, helped the Qing dynasty suppressed uprisings. I do not want to talk about his merits and demerits. Afterall, everyone has strengths and weaknesses. Besides being an official, he was also a Confucian scholar. I recently read some of his writings , which demonstrated his thoughts for many subjects. I’m particularly interested by his point of view about doing academic research and managing a household.\nZeng’s said that, a good paper, should be written brightly and majesticly, make its reader feeling refreshed, and I totally agreed, I’ll try my best to learn how to write a bright and majestic paper. Another point of view about academic, is that for every subject we are interested in, we should study it in depth, and not just scratch the surface, which I shouled be very careful about this. Because I’m actually interested in many topics and if not careful, I‘ll become someone who only scratches the surface.\nAbout managing houseld, there are eight admonitions: getting up early, doing housework, sincerely performming sacrificail rites, treating clansmen well. I think I’m doing well for the first`` two, but for the last two, I still need some work on them.\nFor the last, I think Zeng’s thoughts can be summarized in one word, Respect(‘敬’ in chinese), that is, we should respect every thing we did and will do, we should give our all to everyone and everything. I will strive to put his teaings into practice."
   },
   {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Papers",
     "section": "",
-    "text": "Papers\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection Accurate arrhythmia detection using artificial intelligence remains a significant challenge, particularly when training data are limited in size and heterogeneous in origin. To address this issue, we present a novel data fusion strategy that leverages gradient descent optimization to minimize the Kullback– Leibler divergence between feature distributions across datasets from different sources. We evaluate this approach using a combination of in-house electrocardiogram (ECG) recordings collected from both healthy and diseased individuals using various machines and a subset of data extracted from the publicly available PTB-XL dataset. Binary classification is performed using Light Gradient Boosting Machine (LightGBM) and eXtreme Gradient Boosting (XGBoost) models. Applying the fusion strategy leads to consistently higher classification accuracy on both in-house and PTB-XL datasets compared to standard normalization methods. These results suggest that aligning feature distributions across datasets can improve arrhythmia classification and offer a generalizable strategy for integrating heterogeneous clinical data in machine-learning models. Open PDF"
+    "text": "Papers\n\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection\n\nOpen PDF\n\nConditional Mixture-of-Experts for Distribution Regression\n\nOpen PDF"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geometry, Optimization, Machine Learning and Stochastic",
+    "section": "",
+    "text": "This is the personal blog of Su Baozhuo, who has a wide range of research interests. More specifically, for theoretical research:\n\nOptimization on Manifolds\nOptimal Transport\nGame Theory\nStatistical Learning\nStochastic Processes\n\nand many applied topics, such as high performance solvers, bioinformatics, anti-deepfake,etc.\nThis blog serves as his personal homepage and he will update irregularly his new paper, new idea, mathematical proofs, blogs, including thoughts on life and even his new guitar music.\nHis life is inspired by 3Ms: Mathematics, Music and Monde"
   },
   {
     "objectID": "proofs.html",

@@ -1,3 +1,5 @@
 # Blog
 
-This page will contain blog posts with images and notes.
+## 2026-03-22
+
+- [What I Learned from Guofan Zeng](blog/2026-03-22.qmd)
