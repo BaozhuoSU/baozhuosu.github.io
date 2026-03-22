@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\nThis page will contain blog posts with images and notes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baozhuo Su",
+    "section": "",
+    "text": "Baozhuo Su\nWelcome to my personal website."
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Papers\nThis page will contain my paper and PDF articles."
+  },
+  {
+    "objectID": "proofs.html",
+    "href": "proofs.html",
+    "title": "Proofs",
+    "section": "",
+    "text": "Proofs\nThis page will contain short proofs and mathematical notes."
+  }
+]

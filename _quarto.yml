@@ -1,0 +1,21 @@
+project:
+ type: website
+ output-dir: docs
+
+website:
+ title: "Su Baozhuo"
+ navbar:
+  left:
+   - href: index.qmd
+     text: Home
+   - href: papers.qmd
+     text: Papers
+   - href: proofs.qmd
+     text: Proofs
+   - href: blog.qmd
+     text: Blog
+
+format:
+ html:
+  theme: cosmo
+  toc : true

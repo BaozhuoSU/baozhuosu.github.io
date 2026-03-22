@@ -1,0 +1,17 @@
+{
+  "papers.qmd": {
+    "papers.html": "c6d6bace"
+  },
+  "index.qmd": {
+    "index.html": "8c0c86ab"
+  },
+  "proof.qmd": {
+    "proof.html": "14e2078f"
+  },
+  "blog.qmd": {
+    "blog.html": "fbd1d3f3"
+  },
+  "proofs.qmd": {
+    "proofs.html": "f14a270c"
+  }
+}
