@@ -1,8 +1,8 @@
 # Papers
-<p class="paper-title"><strong><em>Divergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection</em></strong></p>
+- <p class="paper-title"><strong><em>Divergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection</em></strong></p>
 [Open PDF](papers/pdf/npj.pdf)
 
-<p class="paper-title"><strong><em>Conditional Mixture-of-Experts for Distribution Regression</em></strong></p>
+- <p class="paper-title"><strong><em>Conditional Mixture-of-Experts for Distribution Regression</em></strong></p>
 [Open PDF](papers/pdf/moe.pdf)
 
 
