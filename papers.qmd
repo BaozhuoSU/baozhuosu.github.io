@@ -2,12 +2,12 @@
 
 ## 2026
 
-- Graph Learning with L0-norm and SLOPE Penalties[Open PDF](papers/pdf/masters_thesis.pdf)
+- [Graph Learning with L0-norm and SLOPE Penalties](papers/pdf/masters_thesis.pdf)
 
 ## 2025
 
-- Conditional Mixture-of-Experts for Distribution Regression[Open PDF](papers/pdf/moe.pdf)
+- [Conditional Mixture-of-Experts for Distribution Regression](papers/pdf/moe.pdf)
 
-- Divergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection[Open PDF](papers/pdf/npj.pdf)
+- [Divergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection](papers/pdf/npj.pdf)
 
 
