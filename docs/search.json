@@ -4,35 +4,42 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "What I Learned from Guofan Zeng"
+    "text": "03.28 How to find internship in France\n03.22 What I Learned from Guofan Zeng"
   },
   {
     "objectID": "blog.html#section",
     "href": "blog.html#section",
     "title": "Blog",
     "section": "",
-    "text": "What I Learned from Guofan Zeng"
+    "text": "03.28 How to find internship in France\n03.22 What I Learned from Guofan Zeng"
   },
   {
-    "objectID": "blog/2026-03-22.html",
-    "href": "blog/2026-03-22.html",
-    "title": "What I learned from Guofan Zeng",
+    "objectID": "blog/2026-03-25.html",
+    "href": "blog/2026-03-25.html",
+    "title": "How to find a laboratory internship in France",
     "section": "",
-    "text": "What I learned from Guofan Zeng\nZengguo Fan is a very important court official in the late Qing Dynasty. It is undeniable that he made a tremendous contribution to china’s development, but also someone thinks he is a traitor, since he, as a Han chinese, helped the Qing dynasty suppressed uprisings. I do not want to talk about his merits and demerits. Afterall, everyone has strengths and weaknesses. Besides being an official, he was also a Confucian scholar. I recently read some of his writings , which demonstrated his thoughts for many subjects. I’m particularly interested by his point of view about doing academic research and managing a household.\nZeng’s said that, a good paper, should be written brightly and majesticly, make its reader feeling refreshed, and I totally agreed, I’ll try my best to learn how to write a bright and majestic paper. Another point of view about academic, is that for every subject we are interested in, we should study it in depth, and not just scratch the surface, which I shouled be very careful about this. Because I’m actually interested in many topics and if not careful, I‘ll become someone who only scratches the surface.\nAbout managing houseld, there are eight admonitions: getting up early, doing housework, sincerely performming sacrificail rites, treating clansmen well. I think I’m doing well for the first`` two, but for the last two, I still need some work on them.\nFor the last, I think Zeng’s thoughts can be summarized in one word, Respect(‘敬’ in chinese), that is, we should respect every thing we did and will do, we should give our all to everyone and everything. I will strive to put his teaings into practice."
+    "text": "How to find a laboratory internship in France\nFind internship in laboratory(lab) in France is not a easy thing, especially in a reputational lab. I’ll give some tips according to my personal experience. First of all, make sure you really want to work in academia, which means that you were not forced to work in academia, e.g., you can not find internship in industry and thought may be an internship in lab is easier to find, this is not the case we want to talk about.\nOnce you have made up your mind to work in the lab, then you can start to connect the professor you want to work with. There are many ways to get in touch with them, send email or find someone you both know to help you, these two are the most popular ways to find a intern in lab especially in France, according to my personal experience.\nLet me talk about the second way frist. Find someone you both know is the most direct way, but not necessarily the most possible way. In this case, whether you can find an internship almost only depends on the relationship bewteen you and the one you find , and between the one you find and the professor. If the one you find is very familiar with the professor, and he has a good impression with you, not necessarily “very good”, and he is willing to say a few nice things to you with the professor, then its done, you get the job. In this case, you even do not need to send you CV and grades to the professor. But there is another case, the one you find is not very familiar with you and say something genenral to the professor, then it is even worse than directly send an email to the professor yourself.\nIf you can not find any one who is willing to help you, e.g., you just came to France one year ago to start your Master programe, the most easier way is to send eamail to professors you are interested in one by one. To do this, you should know a liitle bit which area you want to dive into. Then next is start from a professor you are familiar with, for most of the case, it is your course professor. Send him an eamail, make sure to clarify which area you want dive into in the email. Then there are possibilities, he accept you, then its done, congratulations. If not, you need to find next professor, but how? This is what I want to emphasize, you can search your professor’s name from google scholar, then find the paper related with your area, find the co-author from the paper who also lived in France, normally, they will leave their eamail in the paper, send them eamil, then repeat is “iteration”, until you find internship. Noting that, if you can get a recomendation letter from your course professor before starting the iteration, it will be much helpful. Another tip for interview, if it is possible, do interview face-to-face, try to avoid online interview, also extracted from my personal experience. So the most diffucity thing in this “iteration” is not finding someone, it is to know which aera you want to dive into in the future, once you know that, it is a natural thing knowing who you want to work with.\nLast thing, do not forget to do a beautiful slides to show what you have done during interview. Hope everyone can find intership you like."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Geometry, Optimization, Machine Learning and Stochastic",
+    "section": "",
+    "text": "This is the personal blog of Su Baozhuo, who has a wide range of research interests. More specifically, for theoretical research:\n\nOptimization on Manifolds\nOptimal Transport\nGame Theory\nStatistical Learning\nStochastic Processes\n\nand many applied topics, such as high performance solvers, bioinformatics, anti-deepfake,etc.\nThis blog serves as his personal homepage and he will update irregularly his new paper, new idea, mathematical proofs, blogs, including thoughts on life and even his new guitar music.\nHis life is inspired by 3Ms: Mathematics, Music and Monde. His CV"
   },
   {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Papers",
     "section": "",
-    "text": "Graph Learning with L0-norm and SLOPE Penalties\n\n\n\n\n\nConditional Mixture-of-Experts for Distribution Regression\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection"
+    "text": "Graph Learning with L0-norm and SLOPE Penalties and Defense PPT\n\n\n\n\n\nConditional Mixture-of-Experts for Distribution Regression\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection"
   },
   {
     "objectID": "papers.html#section",
     "href": "papers.html#section",
     "title": "Papers",
     "section": "",
-    "text": "Graph Learning with L0-norm and SLOPE Penalties"
+    "text": "Graph Learning with L0-norm and SLOPE Penalties and Defense PPT"
   },
   {
     "objectID": "papers.html#section-1",
@@ -42,11 +49,11 @@
     "text": "Conditional Mixture-of-Experts for Distribution Regression\nDivergence-Optimized Data Fusion that Enhances AI-Based Electrocardiogram Arrhythmia Detection"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Geometry, Optimization, Machine Learning and Stochastic",
+    "objectID": "blog/2026-03-22.html",
+    "href": "blog/2026-03-22.html",
+    "title": "What I learned from Guofan Zeng",
     "section": "",
-    "text": "This is the personal blog of Su Baozhuo, who has a wide range of research interests. More specifically, for theoretical research:\n\nOptimization on Manifolds\nOptimal Transport\nGame Theory\nStatistical Learning\nStochastic Processes\n\nand many applied topics, such as high performance solvers, bioinformatics, anti-deepfake,etc.\nThis blog serves as his personal homepage and he will update irregularly his new paper, new idea, mathematical proofs, blogs, including thoughts on life and even his new guitar music.\nHis life is inspired by 3Ms: Mathematics, Music and Monde. His CV"
+    "text": "What I learned from Guofan Zeng\nZengguo Fan is a very important court official in the late Qing Dynasty. It is undeniable that he made a tremendous contribution to china’s development, but also someone thinks he is a traitor, since he, as a Han chinese, helped the Qing dynasty suppressed uprisings. I do not want to talk about his merits and demerits. Afterall, everyone has strengths and weaknesses. Besides being an official, he was also a Confucian scholar. I recently read some of his writings , which demonstrated his thoughts for many subjects. I’m particularly interested by his point of view about doing academic research and managing a household.\nZeng’s said that, a good paper, should be written brightly and majesticly, make its reader feeling refreshed, and I totally agreed, I’ll try my best to learn how to write a bright and majestic paper. Another point of view about academic, is that for every subject we are interested in, we should study it in depth, and not just scratch the surface, which I shouled be very careful about this. Because I’m actually interested in many topics and if not careful, I‘ll become someone who only scratches the surface.\nAbout managing houseld, there are eight admonitions: getting up early, doing housework, sincerely performming sacrificail rites, treating clansmen well. I think I’m doing well for the first`` two, but for the last two, I still need some work on them.\nFor the last, I think Zeng’s thoughts can be summarized in one word, Respect(‘敬’ in chinese), that is, we should respect every thing we did and will do, we should give our all to everyone and everything. I will strive to put his teaings into practice."
   },
   {
     "objectID": "proofs.html",

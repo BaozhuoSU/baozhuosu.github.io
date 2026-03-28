@@ -2,7 +2,7 @@
 
 ## 2026
 
-- [Graph Learning with L0-norm and SLOPE Penalties](papers/pdf/masters_thesis.pdf)
+- [Graph Learning with L0-norm and SLOPE Penalties](papers/pdf/masters_thesis.pdf) and [Defense PPT](papers/pdf/Graph_Learning.pdf)
 
 ## 2025
 
