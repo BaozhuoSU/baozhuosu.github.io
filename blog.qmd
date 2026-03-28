@@ -1,5 +1,5 @@
 # Blog
 
 ## 2026-03(2)
-- [03.28 How to find internship in France](blog/2026-03-25.qmd)
-- [03.22 What I Learned from Guofan Zeng](blog/2026-03-22.qmd)
+- [How to find internship in France](blog/2026-03-25.qmd)
+- [What I Learned from Guofan Zeng](blog/2026-03-22.qmd)
