@@ -3,8 +3,6 @@ title: "The graph induced by the quadratization process is a DAG"
 date : "2026-04-16"
 ---
 
-# The graph induced by the quadratization process is a DAG
-
 **Proposition.**
 Let $\mathcal G=(\mathcal V, \mathcal E)$ be the directed graph induced by a learned quadratization scheme $(\mathcal V,\delta)$, where for every non-terminal node $E \in \mathcal V$,
 $$
