@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-22">
+<meta name="dcterms.date" content="2026-04-01">
 
-<title>What I learned from Guofan Zeng – Geometry, Optimization, Machine Learning and Stochastic</title>
+<title>Should We Use LLMs During Research? – Geometry, Optimization, Machine Learning and Stochastic</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -125,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-i-learned-from-guofan-zeng" id="toc-what-i-learned-from-guofan-zeng" class="nav-link active" data-scroll-target="#what-i-learned-from-guofan-zeng">What I learned from Guofan Zeng</a></li>
+  <li><a href="#should-we-use-llms-during-research" id="toc-should-we-use-llms-during-research" class="nav-link active" data-scroll-target="#should-we-use-llms-during-research">Should We Use LLMs During Research?</a></li>
   </ul>
 </nav>
     </div>
@@ -134,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What I learned from Guofan Zeng</h1>
+<h1 class="title">Should We Use LLMs During Research?</h1>
 </div>
 
 
@@ -145,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 22, 2026</p>
+      <p class="date">April 1, 2026</p>
     </div>
   </div>
   
@@ -157,12 +186,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-i-learned-from-guofan-zeng" class="level1">
-<h1>What I learned from Guofan Zeng</h1>
-<p>Zengguo Fan is a very important court official in the late Qing Dynasty. It is undeniable that he made a tremendous contribution to china’s development, but also someone thinks he is a traitor, since he, as a Han chinese, helped the Qing dynasty suppressed uprisings. I do not want to talk about his merits and demerits. Afterall, everyone has strengths and weaknesses. Besides being an official, he was also a Confucian scholar. I recently read some of his writings , which demonstrated his thoughts for many subjects. I’m particularly interested by his point of view about doing academic research and managing a household.</p>
-<p>Zeng’s said that, a good paper, should be written brightly and majesticly, make its reader feeling refreshed, and I totally agreed, I’ll try my best to learn how to write a bright and majestic paper. Another point of view about academic, is that for every subject we are interested in, we should study it in depth, and not just scratch the surface, which I shouled be very careful about this. Because I’m actually interested in many topics and if not careful, I‘ll become someone who only scratches the surface.</p>
-<p>About managing houseld, there are eight admonitions: getting up early, doing housework, sincerely performming sacrificail rites, treating clansmen well. I think I’m doing well for the first`` two, but for the last two, I still need some work on them.</p>
-<p>For the last, I think Zeng’s thoughts can be summarized in one word, <strong>Respect</strong>(‘敬’ in chinese), that is, we should respect every thing we did and will do, we should give our all to everyone and everything. I will strive to put his teaings into practice.</p>
+<section id="should-we-use-llms-during-research" class="level1">
+<h1>Should We Use LLMs During Research?</h1>
+<p>LLMs are now ubiquitous. Almost everyone uses LLMs everywhere. Even if I try to avoid using LLMs, sometimes I have to use them. LLMs can give you the answer to almost every question in several seconds. It is like a drug that makes you addicted to the feeling of “knowing everything”, but we should know that it is not us who know everything. So, how about for researches? can LLMs really help to do research?</p>
+<p>Maybe I should change the title to “How to Use LLMs During Research?”, because for now, it is really hard to not use LLMs at all. So let us assume that we should use LLMs during research and discuss how to use them. To do this, we should reach a consensus that LLMs do not output the true answer; they can only output answers that “look true”, so for every answer, we should check it carefully and keep this question in mind: “Is it a true answer, or does it just look true?”</p>
+<p>So, how should we use LLMs during research? I will only focus on the domain I am familiar with, such as applied mathematics and machine learning. For applied mathematics, if you do theoretical research, e.g., you need to provide rigorous proofs, then it is for sure that you should use LLMs carefully. You should check every answer, and at least for me, the proof ideas of LLMs, most of the time, are very strange, so I need to spend much more time checking their answers, and I would rather do it myself. But for some empirical parts, such as experiments on synthetic datasets and on real-world datasets, that is, when we need to write some code, LLMs can be a useful tool, since sometimes we do not require very “beautiful” code, as long as it is correct and works well. And for me, it is easier to read LLMs’ code than their proofs.</p>
+<p>For some code-based research, such as building a complex machine learning model or other systems, we should write code ourselves. Because again, LLMs can only output “answers that look like the truth”. For example, if you tell LLMs to compute a distance, e.g., <span class="math inline">\(\lvert x_i - x_j \rvert^2\)</span>, if you do not specify it clearly, LLMs will compute the distance as <span class="math inline">\(\lvert x_i - x_j \rvert\)</span>. Maybe you will say you can fix it by giving a very detailed prompt, but you cannot specify everything, and even if you give a very detailed prompt, LLMs sometimes do not follow the prompt, so it is essential to check the code very carefully, because, like proofs, one small mistake in code, even if there is no bug, can make the results very different. So here I’ll provide an alternative idea for code-based research: you can code by yourself first, then provide the code to LLMs and let them check it. What is the difference? Well, language is very ambiguous. Like I said, even if you detail everything, LLMs may misunderstand you. So rather than letting LLMs generate code from language, why not just let LLMs check the code directly, since code is a clearer prompt than language?</p>
+<p>So the conclusion is very clear: for some researchers, such as mathematicians or theoretical physicists, or other researchers who need rigorous proofs in their research, using LLMs is less efficient. While for other code-based research, LLMs can help to some extent if we give a very detailed and clear prompt, such as by giving the code directly. But we should remember that the answers of LLMs are not our answers; the knowledge belongs to LLMs, not to us. We should not pretend to know the answer and deceive ourselves, especially in research, and we should treat each answer from LLMs carefully.</p>
 
 
 </section>

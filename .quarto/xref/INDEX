@@ -19,5 +19,14 @@
   },
   "blog/2026-03-25.qmd": {
     "2026-03-25.html": "9b749f74"
+  },
+  "blog/2026-04-01.qmd": {
+    "2026-04-01.html": "7925282b"
+  },
+  "blog/2026-03-30.qmd": {
+    "2026-03-30.html": "aaf9f62e"
+  },
+  "proofs/quadratization_DAG.qmd": {
+    "quadratization_DAG.html": "e1e20bf9"
   }
 }

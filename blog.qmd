@@ -1,5 +1,8 @@
 # Blog
 
+## 2026-04(1)
+- [Should We Use LLMs During Research?](blog/2026-04-01.qmd)
+
 ## 2026-03(2)
-- [How to find internship in France](blog/2026-03-25.qmd)
-- [What I Learned from Guofan Zeng](blog/2026-03-22.qmd)
+- [How to find internship in France](blog/2026-03-30.qmd)
+- [What I Learned from Guofan Zeng](blog/2026-03-22.qmd)s

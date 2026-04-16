@@ -1,0 +1,36 @@
+---
+title: "Should We Use LLMs During Research?"
+date: 2026-04-01
+---
+
+# Should We Use LLMs During Research?
+
+LLMs are now ubiquitous. Almost everyone uses LLMs everywhere. Even if I try to avoid using LLMs, sometimes I have to use them.
+LLMs can give you the answer to almost every question in several seconds. It is like a drug that makes you addicted to the feeling of "knowing everything", but we should know that it
+is not us who know everything. So, how about for researches? can LLMs really help to do research?
+
+Maybe I should change the title to "How to Use LLMs During Research?", because for now, it is really hard
+to not use LLMs at all. So let us assume that we should use LLMs during research and discuss how to use them.
+To do this, we should reach a consensus that LLMs do not output the true answer; they can only output answers
+that "look true", so for every answer, we should check it carefully and keep this question in mind:
+"Is it a true answer, or does it just look true?"
+
+So, how should we use LLMs during research? I will only focus on the domain I am familiar with, such as applied mathematics and machine learning.
+For applied mathematics, if you do theoretical research, e.g., you need to provide rigorous proofs, then it is for sure that you should use LLMs
+carefully. You should check every answer, and at least for me, the proof ideas of LLMs, most of the time, are very strange, so I need to spend much more time
+checking their answers, and I would rather do it myself. But for some empirical parts, such as experiments on synthetic datasets and on real-world datasets, that is, when we need
+to write some code, LLMs can be a useful tool, since sometimes we do not require very "beautiful" code, as long as it is correct and works well.
+And for me, it is easier to read LLMs' code than their proofs.
+
+For some code-based research, such as building a complex machine learning model or other systems, we should write code ourselves. Because again, LLMs can only output "answers that look like the truth".
+For example, if you tell LLMs to compute a distance, e.g., $\lvert x_i - x_j \rvert^2$, if you do not specify it clearly, LLMs will compute the distance as $\lvert x_i - x_j \rvert$. Maybe you will say you
+can fix it by giving a very detailed prompt, but you cannot specify everything, and even if you give a very detailed prompt, LLMs sometimes do not follow the
+prompt, so it is essential to check the code very carefully, because, like proofs, one small mistake in code, even if there is no bug, can make the results very different.
+So here I'll provide an alternative idea for code-based research: you can code by yourself first, then provide the code to LLMs and let them
+check it. What is the difference? Well, language is very ambiguous. Like I said, even if you detail everything, LLMs may misunderstand you. So rather than letting LLMs generate code from language, why not
+just let LLMs check the code directly, since code is a clearer prompt than language?
+
+So the conclusion is very clear: for some researchers, such as mathematicians or theoretical physicists, or other researchers who need rigorous proofs in their research,
+using LLMs is less efficient. While for other code-based research, LLMs can help to some extent if we give a very detailed and clear prompt, such as by giving the code directly.
+But we should remember that the answers of LLMs are not our answers; the knowledge belongs to LLMs, not to us. We should not pretend to know the answer and deceive ourselves,
+especially in research, and we should treat each answer from LLMs carefully.

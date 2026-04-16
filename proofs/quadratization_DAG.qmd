@@ -1,0 +1,52 @@
+---
+title: "The graph induced by the quadratization process is a DAG"
+date : "2026-04-16"
+---
+
+# The graph induced by the quadratization process is a DAG
+
+**Proposition.**
+Let $\mathcal G=(\mathcal V, \mathcal E)$ be the directed graph induced by a learned quadratization scheme $(\mathcal V,\delta)$, where for every non-terminal node $E \in \mathcal V$,
+$$
+\delta(E) = (E^{(1)},E^{(2)}),
+\qquad
+E=E^{(1)}+E^{(2)},\\
+\qquad
+1\le |E^{(1)}| < |E|,
+\qquad
+1\le |E^{(2)}| < |E|.
+$$
+Then $\mathcal G$ is a finite directed acyclic graph.
+
+**Proof.**
+We first prove that $\mathcal G$ is finite.
+For any root monomial $\alpha \in \mathcal R(P)$ and any decendant node $E$ generated from $\alpha$, one has 
+$$
+0\le E_i\le \alpha_i, \qquad \forall i\in[n],
+$$
+since every split decomposes a parent exponet vector into two non-negative children whose sum is the parent vector. Therefore, a fixed root $\alpha$, only finitely many descendant exponent vectors can appear. In fact, for a fixed $\alpha$, the possible descendant vectors is at maximum
+$$
+\prod_{i=1}^n (\alpha_i +1), ~\forall i \in [n] 
+$$ 
+Since $\mathcal R(P)$ is finite, the whole node set $\mathcal V$ is finite.
+
+
+We now prove acyclicity. Define the rank function
+$$
+\rho(E):=|E|
+$$
+For every directed edge $(E,F)\in\mathcal E$, the child node $F$ is either $E^{(1)}$ or $E^{(2)}$, hence
+$$
+\rho(F)<\rho(E)
+$$
+Therefore, the rank $\rho$ strictly decreases along every directed edge. 
+
+If a directed cycle existed,
+$$
+E_1\to E_2 \to \cdots \to E_k \to E_1
+$$
+then we would obtain 
+$$
+|E_1| > |E_2| > \cdots > |E_k| > |E_1|, 
+$$
+which is impossible. Hence $\mathcal G$ is acylic. Therefore $\mathcal G$ is a finite directed acyclic graph. $\square$
