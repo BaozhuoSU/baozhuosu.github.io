@@ -1,0 +1,81 @@
+---
+title: "Talylor's theorem with remainder to order 2"
+date: "2026-05-03"
+--- 
+
+**Lemma(Taloy's theorem with remainder to order 2).** Let $f: \mathbb{R}^2 \rightarrow \mathbb{R}^1$ is $C^\infty$, then there exist $C^\infty$ functions $g_{11}, g_{12},g_{22}$ on $\mathbb{R}^2$ such that 
+$$
+\begin{align*}
+f(x,y) = f(0,0) 
+& + \frac{\partial f}{\partial x}(0,0) x 
++ \frac{\partial f}{\partial y}(0,0) y \\
+& + x^2g_{11}(x,y) + 2xyg_{12}(x,y) + y^2 g_{22}(x,y) 
+\end{align*}
+$$
+
+*Proof.*  Trivially, $(p,m) = (0,0)$ is *star-shaped* in $\mathbb{R}^2$ and the line segement $p+t(x-p), 0<t<1$ and $m+j(y-m), 0<j<1$ lies in $\mathbb{R}^2$. So that $f(p+t(x-p), m+j(y-m))$ is defined.
+
+By the chain rule,
+$$
+\begin{align*}
+&\frac{d}{dt} ~ \frac{d}{dj} f(p+t(x-p), m+j(y-m)) \\ 
+& = \sum (x^i-p^i) \frac{\partial f}{\partial x^i}(p+t(x-p), m+j(y-m)) \\
+& + \sum (y^i-m^i) \frac{\partial f}{\partial y^i}(p+t(x-p),m+j(y-m)  
+\end{align*}
+$$
+
+If we double integrate both sides with respect to $t$ and $j$ from $0$ to $1$, we get
+$$
+\begin{align*}
+& [[f(p+t(x-p), m+j(y-m))]_{t=0}^{t=1}]_{j=0}^{j=1}\\
+& =\sum(x^i-p^i) \int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial x^i}(p+t(x-p), m+j(y-m)) dtdj \\
+& + \sum (y^i-m^i) \int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial y^i}(p+t(x-p), m+j(y-m) dtdj ~~ (1)\\ 
+\end{align*}
+$$
+
+Let 
+$$
+\begin{align*}
+& g_1(x,y)=\int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial x^i}(p+t(x-p),m+j(y-m)) dtdj\\
+& g_2(x,y) = \int_{0}^{1} \int_{0}^{1}\frac{\partial f}{\partial y^i}(p+t(x-p), m+j(y-m)) dtdj\\
+\end{align*}
+$$
+
+Then both $g_1(x,y), g_2(x,y)$ are $C^{\infty}$ and (1) becomes
+$$
+f(x,y)-f(p,m) = \sum(x^i-p^i)g_1(x,y) + \sum(y^i-m^i)g_2(x,y) ~~(2)
+$$
+
+In case $p=0, m=0$, and $n=1$, (2) becomes
+$$
+f(x,y) = f(0,0)+ xg_1(x,y)+yg_2(x,y) ~~ (3)
+$$
+
+Applying this lemma second time, that is to double differentiate $f(p+t(x-p),m+j(y-m))$ with repect to $t$ and $j$
+$$
+\begin{align*}
+& \frac{d^2}{dt^2} \frac{d^2}{dj^2}f(p+t(x-p),m+j(y-m)) \\
+& = \sum(x^i-p^i)^2 \big[\frac{\partial^2}{\partial x^{2i}} f(p+t(x-p),m+j(y-m)) \big]+ (y^i-m^i)(x^i-p^i) \big[\frac{\partial^2}{\partial x \partial y}f(p+t(x-p), m+j(y-m))\big]\\
+& + \sum(y^i-p^i)^2\big[\frac{\partial^2}{\partial y^{2i}}f(p+t(x-p),m+j(y-m)) \big]+ (y^i-m^i)(x^i-p^i)\big[\frac{\partial^2 }{\partial x \partial y} f(p+t(x-p), m+j(y-m)) \big] ~~(4)
+\end{align*}
+$$
+
+Similarly we can integrate (4) and obtain
+$$
+\begin{align*}
+& g_{11}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2 }{\partial x^{2i}} f(p+t(x-p), m+j(y-m))dtdjdtdj \\
+& g_{12}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2}{\partial x \partial y} f(p+t(x-p), m+j(y-m))dtdjdtdj\\
+& g_{22}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2}{\partial y^{2i}} dtdjdtdj\\
+\end{align*}
+$$
+for some $g_{11}, g_{12},g_{22}$ are $C^{\infty}$.
+
+
+We can finally obtain the equaiton in the case of $n=2$
+$$
+\begin{align*}
+f(x,y)& =f(0,0) + (x^2g_{11}(x,y) + xy(g_{12})(x,y)) + (xyg_{12}(x,y)+y^2g_{22}(x,y))\\
+& = f(0,0)+ x^2 g_{11}(x,y) + 2xy (g_{12}(x,y)) + y^2 g_{22}(x,y)~~ \square
+\end{align*}
+$$
+

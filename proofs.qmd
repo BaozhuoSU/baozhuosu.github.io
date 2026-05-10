@@ -1,4 +1,6 @@
 # Proofs
+## 2026-05
+- [Taylor with remainder to order 2](proofs/Taylor_with_remainder_O2.qmd)
 
 ## 2026-04(1)
 - [The graph induced by the quadratization process is a DAG](proofs/quadratization_DAG.qmd)

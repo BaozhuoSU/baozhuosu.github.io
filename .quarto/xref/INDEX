@@ -28,5 +28,11 @@
   },
   "proofs/quadratization_DAG.qmd": {
     "quadratization_DAG.html": "e1e20bf9"
+  },
+  "proofs/Talyor_with_remainder_O2.qmd": {
+    "Talyor_with_remainder_O2.html": "ada976ed"
+  },
+  "proofs/Taylor_with_remainder_O2.qmd": {
+    "Taylor_with_remainder_O2.html": "acd713cf"
   }
 }

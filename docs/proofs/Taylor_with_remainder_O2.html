@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-03">
 
-<title>proofs – Geometry, Optimization, Machine Learning and Stochastic</title>
+<title>Talylor’s theorem with remainder to order 2 – Geometry, Optimization, Machine Learning and Stochastic</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +72,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Geometry, Optimization, Machine Learning and Stochastic</span>
     </a>
   </div>
@@ -93,19 +123,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link" href="../papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./proofs.html" aria-current="page"> 
+    <a class="nav-link" href="../proofs.html"> 
 <span class="menu-text">Proofs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -119,42 +149,94 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#proofs" id="toc-proofs" class="nav-link active" data-scroll-target="#proofs">Proofs</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-05</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-04(1)</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Talylor’s theorem with remainder to order 2</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="proofs" class="level1">
-<h1>Proofs</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2026-05</h2>
-<ul>
-<li><a href="./proofs/Taylor_with_remainder_O2.html">Taylor with remainder to order 2</a></li>
-</ul>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2026-04(1)</h2>
-<ul>
-<li><a href="./proofs/quadratization_DAG.html">The graph induced by the quadratization process is a DAG</a></li>
-</ul>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-</section>
-</section>
+</header>
+
+
+<p><strong>Lemma(Taloy’s theorem with remainder to order 2).</strong> Let <span class="math inline">\(f: \mathbb{R}^2 \rightarrow \mathbb{R}^1\)</span> is <span class="math inline">\(C^\infty\)</span>, then there exist <span class="math inline">\(C^\infty\)</span> functions <span class="math inline">\(g_{11}, g_{12},g_{22}\)</span> on <span class="math inline">\(\mathbb{R}^2\)</span> such that <span class="math display">\[
+\begin{align*}
+f(x,y) = f(0,0)
+&amp; + \frac{\partial f}{\partial x}(0,0) x
++ \frac{\partial f}{\partial y}(0,0) y \\
+&amp; + x^2g_{11}(x,y) + 2xyg_{12}(x,y) + y^2 g_{22}(x,y)
+\end{align*}
+\]</span></p>
+<p><em>Proof.</em> Trivially, <span class="math inline">\((p,m) = (0,0)\)</span> is <em>star-shaped</em> in <span class="math inline">\(\mathbb{R}^2\)</span> and the line segement <span class="math inline">\(p+t(x-p), 0&lt;t&lt;1\)</span> and <span class="math inline">\(m+j(y-m), 0&lt;j&lt;1\)</span> lies in <span class="math inline">\(\mathbb{R}^2\)</span>. So that <span class="math inline">\(f(p+t(x-p), m+j(y-m))\)</span> is defined.</p>
+<p>By the chain rule, <span class="math display">\[
+\begin{align*}
+&amp;\frac{d}{dt} ~ \frac{d}{dj} f(p+t(x-p), m+j(y-m)) \\
+&amp; = \sum (x^i-p^i) \frac{\partial f}{\partial x^i}(p+t(x-p), m+j(y-m)) \\
+&amp; + \sum (y^i-m^i) \frac{\partial f}{\partial y^i}(p+t(x-p),m+j(y-m)  
+\end{align*}
+\]</span></p>
+<p>If we double integrate both sides with respect to <span class="math inline">\(t\)</span> and <span class="math inline">\(j\)</span> from <span class="math inline">\(0\)</span> to <span class="math inline">\(1\)</span>, we get <span class="math display">\[
+\begin{align*}
+&amp; [[f(p+t(x-p), m+j(y-m))]_{t=0}^{t=1}]_{j=0}^{j=1}\\
+&amp; =\sum(x^i-p^i) \int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial x^i}(p+t(x-p), m+j(y-m)) dtdj \\
+&amp; + \sum (y^i-m^i) \int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial y^i}(p+t(x-p), m+j(y-m) dtdj ~~ (1)\\
+\end{align*}
+\]</span></p>
+<p>Let <span class="math display">\[
+\begin{align*}
+&amp; g_1(x,y)=\int_{0}^{1} \int_{0}^{1} \frac{\partial f}{\partial x^i}(p+t(x-p),m+j(y-m)) dtdj\\
+&amp; g_2(x,y) = \int_{0}^{1} \int_{0}^{1}\frac{\partial f}{\partial y^i}(p+t(x-p), m+j(y-m)) dtdj\\
+\end{align*}
+\]</span></p>
+<p>Then both <span class="math inline">\(g_1(x,y), g_2(x,y)\)</span> are <span class="math inline">\(C^{\infty}\)</span> and (1) becomes <span class="math display">\[
+f(x,y)-f(p,m) = \sum(x^i-p^i)g_1(x,y) + \sum(y^i-m^i)g_2(x,y) ~~(2)
+\]</span></p>
+<p>In case <span class="math inline">\(p=0, m=0\)</span>, and <span class="math inline">\(n=1\)</span>, (2) becomes <span class="math display">\[
+f(x,y) = f(0,0)+ xg_1(x,y)+yg_2(x,y) ~~ (3)
+\]</span></p>
+<p>Applying this lemma second time, that is to double differentiate <span class="math inline">\(f(p+t(x-p),m+j(y-m))\)</span> with repect to <span class="math inline">\(t\)</span> and <span class="math inline">\(j\)</span> <span class="math display">\[
+\begin{align*}
+&amp; \frac{d^2}{dt^2} \frac{d^2}{dj^2}f(p+t(x-p),m+j(y-m)) \\
+&amp; = \sum(x^i-p^i)^2 \big[\frac{\partial^2}{\partial x^{2i}} f(p+t(x-p),m+j(y-m)) \big]+ (y^i-m^i)(x^i-p^i) \big[\frac{\partial^2}{\partial x \partial y}f(p+t(x-p), m+j(y-m))\big]\\
+&amp; + \sum(y^i-p^i)^2\big[\frac{\partial^2}{\partial y^{2i}}f(p+t(x-p),m+j(y-m)) \big]+ (y^i-m^i)(x^i-p^i)\big[\frac{\partial^2 }{\partial x \partial y} f(p+t(x-p), m+j(y-m)) \big] ~~(4)
+\end{align*}
+\]</span></p>
+<p>Similarly we can integrate (4) and obtain <span class="math display">\[
+\begin{align*}
+&amp; g_{11}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2 }{\partial x^{2i}} f(p+t(x-p), m+j(y-m))dtdjdtdj \\
+&amp; g_{12}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2}{\partial x \partial y} f(p+t(x-p), m+j(y-m))dtdjdtdj\\
+&amp; g_{22}(x,y) = \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \int_{0}^{1} \frac{\partial^2}{\partial y^{2i}} dtdjdtdj\\
+\end{align*}
+\]</span> for some <span class="math inline">\(g_{11}, g_{12},g_{22}\)</span> are <span class="math inline">\(C^{\infty}\)</span>.</p>
+<p>We can finally obtain the equaiton in the case of <span class="math inline">\(n=2\)</span> <span class="math display">\[
+\begin{align*}
+f(x,y)&amp; =f(0,0) + (x^2g_{11}(x,y) + xy(g_{12})(x,y)) + (xyg_{12}(x,y)+y^2g_{22}(x,y))\\
+&amp; = f(0,0)+ x^2 g_{11}(x,y) + 2xy (g_{12}(x,y)) + y^2 g_{22}(x,y)~~ \square
+\end{align*}
+\]</span></p>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
